@@ -47,4 +47,4 @@ Aeterna, kişisel verileri, geçmiş konuşma kayıtlarını ve özel dokümanla
 
 * **Sprint 1 board update:** Sprint Board Screenshot:
 
-![Sprint 1 Board](buraya-kanban-board-ekran-goruntusu-linki-gelecek.png)
+![Sprint 1 Board](sprint1-board.png)
