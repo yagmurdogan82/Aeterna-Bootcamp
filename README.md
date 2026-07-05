@@ -39,7 +39,7 @@ Aeterna, kişisel verileri, geçmiş konuşma kayıtlarını ve özel dokümanla
 * **Puan tamamlama mantığı:** Proje boyunca tamamlanması gereken toplam backlog puanı 30'dur. Temel altyapı kurulumu ve ilk RAG testlerini kapsayan Sprint 1 için bitirilmesi hedeflenen puan sayısı 10 olarak belirlenmiş ve hedeflenen işlere başlanmıştır.
 * **Daily Scrum:** Ekip tek kişiden (Yağmur) oluştuğu için Daily Scrum süreçleri metin bazlı olarak kendi kendine raporlama ("Dün ne yaptım?", "Bugün ne yapacağım?", "Önümde bir engel var mı?") formatında yürütülmektedir. 
 
-[Sprint 1 Daily Scrum Notları ve Ekran Görüntüleri](buraya-klasor-linki-gelecek)
+[Sprint 1 Daily Scrum Notları ve Ekran Görüntüleri](sprint1_notlar.md)
 
 * **Geliştirme Mantığı ve Backlog:** Takımda Product Owner, Scrum Master ve Developer rolleri tek kişi tarafından üstlenilmiştir. İlk sprint tamamen araştırma, geliştirme ortamının kurulması (GitHub, ortam değişkenleri) ve yapay zeka modellerinin yerel donanımda (Ollama & ChromaDB) ayağa kaldırılması üzerine kurgulanmıştır.
   * **Story 1:** Proje yönetim ve versiyon kontrol araçlarının kurulumu.
