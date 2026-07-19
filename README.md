@@ -50,5 +50,3 @@ Aeterna, kişisel verileri, geçmiş konuşma kayıtlarını ve özel dokümanla
 ![Sprint 1 Board](sprint1-board.png)
 
 ---
-
-![Sprint 2 Board](sprint2-board.png)
