@@ -1,0 +1,5 @@
+# Python sanal ortamı
+venv/
+
+# Vektör veritabanı klasörü (ChromaDB için)
+chroma_db/
