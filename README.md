@@ -51,20 +51,4 @@ Aeterna, kişisel verileri, geçmiş konuşma kayıtlarını ve özel dokümanla
 
 ---
 
-## SPRINT 2
-
-* **Sprint içi puan değerlendirmesi:** 10 olarak belirlenmiştir.
-* **Puan tamamlama mantığı:** Toplam 30 olan backlog puanından, bu sprint için hedeflenen 10 puanlık kısım; model optimizasyonu (daha yetenekli bir modele geçiş) ve yapay zekaya bağlam yeteneği kazandıracak hafıza (Memory) modülünün entegrasyonuna ayrılmıştır.
-* **Daily Scrum:** [Sprint 2 Daily Scrum Notları](sprint2_notlar.md)
-
-* **Geliştirme Mantığı ve Backlog:** İlk sprintte yaşanan dil tabanlı çeviri hatalarını (halüsinasyonları) gidermek için daha büyük parametreli bir yerel modelin entegrasyonu sağlanacaktır. Aynı zamanda RAG altyapısının ikinci ayağı olan hafıza ve vektör veritabanı (ChromaDB) bağlantısı kurulacaktır.
-  * **Story 3:** Geliştirici olarak, modelin dil becerisini ve anlamsal doğruluğunu artırmak için altyapıyı daha güçlü bir modelle güncellemek istiyorum.
-    * *Task 3.1:* Ollama üzerinden yeni modelin indirilmesi ve test edilmesi.
-    * *Task 3.2:* `main.py` içindeki model konfigürasyonunun ve prompt'un güncellenmesi.
-  * **Story 4:** Sistem mimarı olarak, dijital ikizin geçmiş konuşmaları hatırlaması için hafıza yönetimini ve vektör veritabanı (ChromaDB) bağlantısını kurmak istiyorum.
-    * *Task 4.1:* LangChain ConversationBufferMemory entegrasyonunun yapılması.
-    * *Task 4.2:* ChromaDB koleksiyonunun (collection) oluşturulması.
-
-* **Sprint 2 board update:** Sprint Board Screenshot:
-
 ![Sprint 2 Board](sprint2-board.png)
