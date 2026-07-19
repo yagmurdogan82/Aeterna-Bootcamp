@@ -3,48 +3,76 @@
 Aeterna, kişisel verileri, geçmiş konuşma kayıtlarını ve özel dokümanları kullanarak belirli bir kişinin veya kurumun "dijital kopyasını" oluşturan, RAG (Retrieval-Augmented Generation) tabanlı interaktif bir yapay zeka ajanıdır. Otonom ajanlar sayesinde yalnızca soru cevaplamakla kalmaz, aynı zamanda kullanıcının geçmiş bağlamını hafızasında tutarak doğal ve sürekli bir iletişim simülasyonu sunar.
 
 ## 👥 Takım Bilgileri
+
 **Takım İsmi:** Takım Aeterna  
 **Üyeler ve Roller:**
-* **Yağmur:** Product Owner, Scrum Master, Developer
+
+- **Yağmur:** Product Owner, Scrum Master, Developer
 
 ## 🚀 Ürün Özellikleri
-* **Gizlilik Odaklı Local RAG:** Yerel verilerle çalışan, dışa kapalı ve güvenli bilgi geri çağırma sistemi.
-* **Ajan Orkestrasyonu:** LangChain altyapısı ile yönetilen, farklı görevleri yerine getirebilen otonom ajanlar.
-* **Hafıza (Memory) Yönetimi:** Kullanıcı ile yapılan önceki etkileşimleri saklayan ve bağlamı koruyan konuşma geçmişi.
-* **Semantik Arama:** ChromaDB vektör veritabanı üzerinden hızlı ve anlamsal doküman sorgulama.
-* **Akıcı Arayüz:** Streamlit kullanılarak geliştirilmiş, etkileşimli ve kullanıcı dostu web arayüzü.
+
+- **Gizlilik Odaklı Local RAG:** Yerel verilerle çalışan, dışa kapalı ve güvenli bilgi geri çağırma sistemi.
+- **Ajan Orkestrasyonu:** LangChain altyapısı ile yönetilen, farklı görevleri yerine getirebilen otonom ajanlar.
+- **Hafıza (Memory) Yönetimi:** Kullanıcı ile yapılan önceki etkileşimleri saklayan ve bağlamı koruyan konuşma geçmişi.
+- **Semantik Arama:** ChromaDB vektör veritabanı üzerinden hızlı ve anlamsal doküman sorgulama.
+- **Akıcı Arayüz:** Streamlit kullanılarak geliştirilmiş, etkileşimli ve kullanıcı dostu web arayüzü.
 
 ## 🛠 Teknoloji Yığını (Tech Stack)
-* **Dil:** Python
-* **LLM Orkestrasyonu:** LangChain
-* **Vektör Veritabanı:** ChromaDB
-* **Yerel Model Yönetimi:** Ollama (Llama 3.2 vb. modeller)
-* **Arayüz:** Streamlit
-* **Donanım Optimizasyonu:** Apple Silicon (M4 / 24GB RAM) mimarisi üzerinde MPS (Metal Performance Shaders) ile ivmelendirilmiş yerel çıkarım.
+
+- **Dil:** Python
+- **LLM Orkestrasyonu:** LangChain
+- **Vektör Veritabanı:** ChromaDB
+- **Yerel Model Yönetimi:** Ollama (Llama 3.2 vb. modeller)
+- **Arayüz:** Streamlit
+- **Donanım Optimizasyonu:** Apple Silicon (M4 / 24GB RAM) mimarisi üzerinde MPS (Metal Performance Shaders) ile ivmelendirilmiş yerel çıkarım.
 
 ## 🎯 Hedef Kitle
-* Mülakat simülasyonu yapmak isteyen İK departmanları.
-* Önemli şahsiyetlerin veya uzmanların bilgi birikimini korumak isteyen eğitim kurumları.
-* Kendi dijital arşivini ve asistanını yaratmak isteyen teknoloji meraklıları ve araştırmacılar.
+
+- Mülakat simülasyonu yapmak isteyen İK departmanları.
+- Önemli şahsiyetlerin veya uzmanların bilgi birikimini korumak isteyen eğitim kurumları.
+- Kendi dijital arşivini ve asistanını yaratmak isteyen teknoloji meraklıları ve araştırmacılar.
 
 ## 📊 Proje Yönetimi
-* **Product Backlog & Sprint Board:** [Buraya Kanban Board (Trello/Miro/GitHub Projects) Linki Gelecek]
-* **Daily Scrum Notları:** [Sprint klasörleri içerisindeki dökümanlara veya wiki'ye link eklenecek]
+
+- **Product Backlog & Sprint Board:** [Buraya Kanban Board (Trello/Miro/GitHub Projects) Linki Gelecek]
+- **Daily Scrum Notları:** [Sprint klasörleri içerisindeki dökümanlara veya wiki'ye link eklenecek]
 
 ---
 
 ## SPRINT 1
 
-* **Sprint içi puan değerlendirmesi:** 10 olarak belirlenmiştir.
-* **Puan tamamlama mantığı:** Proje boyunca tamamlanması gereken toplam backlog puanı 30'dur. Temel altyapı kurulumu ve ilk RAG testlerini kapsayan Sprint 1 için bitirilmesi hedeflenen puan sayısı 10 olarak belirlenmiş ve hedeflenen işlere başlanmıştır.
-* **Daily Scrum:** Ekip tek kişiden (Yağmur) oluştuğu için Daily Scrum süreçleri metin bazlı olarak kendi kendine raporlama ("Dün ne yaptım?", "Bugün ne yapacağım?", "Önümde bir engel var mı?") formatında yürütülmektedir. 
+- **Sprint içi puan değerlendirmesi:** 10 olarak belirlenmiştir.
+- **Puan tamamlama mantığı:** Proje boyunca tamamlanması gereken toplam backlog puanı 30'dur. Temel altyapı kurulumu ve ilk RAG testlerini kapsayan Sprint 1 için bitirilmesi hedeflenen puan sayısı 10 olarak belirlenmiş ve hedeflenen işlere başlanmıştır.
+- **Daily Scrum:** Ekip tek kişiden (Yağmur) oluştuğu için Daily Scrum süreçleri metin bazlı olarak kendi kendine raporlama ("Dün ne yaptım?", "Bugün ne yapacağım?", "Önümde bir engel var mı?") formatında yürütülmektedir.
 
 [Sprint 1 Daily Scrum Notları ve Ekran Görüntüleri](sprint1_notlar.md)
 
-* **Geliştirme Mantığı ve Backlog:** Takımda Product Owner, Scrum Master ve Developer rolleri tek kişi tarafından üstlenilmiştir. İlk sprint tamamen araştırma, geliştirme ortamının kurulması (GitHub, ortam değişkenleri) ve yapay zeka modellerinin yerel donanımda (Ollama & ChromaDB) ayağa kaldırılması üzerine kurgulanmıştır.
-  * **Story 1:** Proje yönetim ve versiyon kontrol araçlarının kurulumu.
-  * **Story 2:** Yerel model (Llama 3.2) entegrasyonu ve Apple Silicon donanım ivmelendirmesiyle performans testlerinin yapılması.
+- **Geliştirme Mantığı ve Backlog:** Takımda Product Owner, Scrum Master ve Developer rolleri tek kişi tarafından üstlenilmiştir. İlk sprint tamamen araştırma, geliştirme ortamının kurulması (GitHub, ortam değişkenleri) ve yapay zeka modellerinin yerel donanımda (Ollama & ChromaDB) ayağa kaldırılması üzerine kurgulanmıştır.
 
-* **Sprint 1 board update:** Sprint Board Screenshot:
+  - **Story 1:** Proje yönetim ve versiyon kontrol araçlarının kurulumu.
+  - **Story 2:** Yerel model (Llama 3.2) entegrasyonu ve Apple Silicon donanım ivmelendirmesiyle performans testlerinin yapılması.
+
+- **Sprint 1 board update:** Sprint Board Screenshot:
 
 ![Sprint 1 Board](sprint1-board.png)
+
+---
+
+## SPRINT 2
+
+- **Sprint içi puan değerlendirmesi:** 10 olarak belirlenmiştir.
+- **Puan tamamlama mantığı:** Toplam 30 olan backlog puanından, bu sprint için hedeflenen 10 puanlık kısım; model optimizasyonu (daha yetenekli bir modele geçiş) ve yapay zekaya bağlam yeteneği kazandıracak hafıza (Memory) modülünün entegrasyonuna ayrılmıştır.
+- **Daily Scrum:** [Sprint 2 Daily Scrum Notları](sprint2_notlar.md)
+
+- **Geliştirme Mantığı ve Backlog:** İlk sprintte yaşanan dil tabanlı çeviri hatalarını (halüsinasyonları) gidermek için daha büyük parametreli bir yerel modelin entegrasyonu sağlanacaktır. Aynı zamanda RAG altyapısının ikinci ayağı olan hafıza ve vektör veritabanı (ChromaDB) bağlantısı kurulacaktır.
+
+  - **Story 3:** Geliştirici olarak, modelin dil becerisini ve anlamsal doğruluğunu artırmak için altyapıyı daha güçlü bir modelle güncellemek istiyorum.
+    - _Task 3.1:_ Ollama üzerinden yeni modelin indirilmesi ve test edilmesi.
+    - _Task 3.2:_ `main.py` içindeki model konfigürasyonunun ve prompt'un güncellenmesi.
+  - **Story 4:** Sistem mimarı olarak, dijital ikizin geçmiş konuşmaları hatırlaması için hafıza yönetimini ve vektör veritabanı (ChromaDB) bağlantısını kurmak istiyorum.
+    - _Task 4.1:_ LangChain ConversationBufferMemory entegrasyonunun yapılması.
+    - _Task 4.2:_ ChromaDB koleksiyonunun (collection) oluşturulması.
+
+- **Sprint 2 board update:** Sprint Board Screenshot:
+
+![Sprint 2 Board](sprint2-board.png)
